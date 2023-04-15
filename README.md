@@ -36,7 +36,7 @@ contract MyToken {
             totalSupply -= _value;
             balances[_address] -= _value;
         } /*else {
-            revert("Insuficient Balance");
+            revert("Insufficient Balance");
         } */
     }
 }
